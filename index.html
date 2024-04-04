@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <title>buscador</title>
+</head>
+<body>
+    <div>
+        <p class="mensaje">Todos los productos ya incluyen la técnica de impresión recomendada, los precios
+            pueden variar segun el numero de piezas en todo caso para estar informado, consulte directamente
+            con el proveedor.
+        </p>
+    </div>
+<div class="header col-10 d-flex justify-content-between m-auto p-3">
+    <h1 class="text-center fs-1 text-uppercase">Muestrario de productos promocionales</h1>
+    <img src="img/imprenta-detonarte.png" alt="">
+</div>
+    <div class="container-xl col-lg-12">
+        
+        <div class="content col w-auto h-auto p-5">
+            
+            <form id="buscador" action="">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="column1 col-sm-3">
+                        <label class="colum-marca" for="marca">Marca</label>
+                        <select class="form-select custom-select" id="marca">
+                            <option id="select" value="">Seleccione</option>
+                            <option value="doble vela">doble vela</option>
+                            <option value="promoopcion">promoopcion</option>
+                            <option value="suministros">suministros</option>
+                            <option value="playeritees">playeritees</option>
+                            
+                        </select>
+                    </div>
+
+                    <div class="column1 col-sm-3">
+                        <label class="colum-marca" for="categoria">Categoria</label>
+                        <select class="form-select custom-select" id="categoria">
+                            <option id="select" value="">Seleccione</option>
+                            <option value="gorras">Gorras</option>
+                            <option value="bolsas">Bolsas</option>
+                            <option value="encendedor">Encendedores</option>
+                            <option value="playeras">playeras</option>
+                            <option value="cilindros">Cilindros</option>
+                            <option value="vasos">Vasos</option>
+                            <option value="tazas">Tazas</option>
+                            <option value="llaveros">Llaveros</option>
+                            <option value="plasticos">Boligrafos plasticos</option>
+                            <option value="metalicos">Boligrafos metalicos</option>
+                            <option value="libretas">Libretas</option>
+                            <option value="termos">Termos</option>
+                            
+                            
+                        </select>
+                    </div>
+                    
+                    
+                  
+                <div class="column3 col-sm-3 mb-3">
+                        <label class="column-min" for="minimo">Precio Minimo</label>
+                        <select class="form-select custom-select" id="minimo">
+                                <option id="select" value="">Seleccione</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                        </select>
+                    </div>
+                    <div class="column4 col-sm-3 mb-3">
+                        <label for="maximo">Precio Maximo</label>
+                        <select class="form-select custom-select" id="maximo">
+                            <option id="select" value="">Seleccione</option>
+                            <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                                <option value="30">30</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                        </select>
+                    </div>
+                    
+                        
+                        <div class="column5 col-sm-3 mb-3">
+                            <label for="tecnica">Técnica</label>
+                            <select class="form-select custom-select" id="tecnica">
+                                    <option id="select" value="">Seleccione</option>
+                                    <option value="bordado">Bordado</option>
+                                    <option value="serigrafia">Serigrafía</option>
+                                    <option value="sublimacion">sublimación</option>
+                                   
+                            </select>
+                        </div>
+                        <div class="column6 col-sm-3 mb-3">
+                            <label for="memoria-ram">Material</label>
+                            <select class="form-select custom-select" id="material">
+                                  <option id="select" value="">Seleccione</option>
+                                    <option value="plastico">Plastico</option>
+                                    <option value="vidrio">Vidrio</option>
+                                    <option value="ceramica">Ceramica</option>
+                                    <option value="tela">Tela</option>
+                                    <option value="metalico">Metalico</option>
+                                    <option value="papel">Papel</option>
+                            </select>
+                        </div>
+                        <div class="column7 col-sm-3 mb-3">
+                            <label for="color">Colores disponibles</label>
+                            <select class="form-select custom-select" id="color">
+                                    <option id="select" value="">Seleccione</option>
+                                    <option value="negro">Negro</option>
+                                    <option value="azul-rey">Azul Rey</option>
+                                    <option value="azul-marino">Azul marino</option>
+                                    <option value="azul-cielo">Azul cielo</option>
+                                    <option value="rojo">Rojo</option>
+                                    <option value="humo">Humo</option>
+                                    <option value="amarillo">Amarillo</option>
+                                    <option value="verde">Verde</option>
+                                    <option value="neon">Neon</option>
+                                    <option value="naranja">Naranja</option>
+                                    <option value="morado">Morado</option>
+                                    <option value="rosado">Rosado</option>
+                                    <option value="blanco">blanco</option>
+                                    <option value="gris">Gris</option>
+                                    <option value="dorado">Dorado</option>
+                                    
+                            </select>
+                        </div>
+
+                
+            </div>
+            </form>
+
+        </div>
+        
+        <h2>Resultados de Busqueda</h2>
+    <div id="resultado"></div>
+
+    </div>
+
+    
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
